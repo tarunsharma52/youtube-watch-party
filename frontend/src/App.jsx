@@ -6,7 +6,7 @@ import ControlsBar from './components/ControlsBar';
 import RoomSidebar from './components/RoomSidebar';
 import { Tv, Copy, LogOut, Check, Sparkles, ShieldCheck } from 'lucide-react';
 
-const BACKEND_URL = 'http://localhost:5000';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
 
 function App() {
   const [socket, setSocket] = useState(null);
