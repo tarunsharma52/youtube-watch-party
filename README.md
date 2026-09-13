@@ -4,6 +4,13 @@ A real-time, synchronized YouTube Watch Party web application built with **React
 
 ---
 
+## 🌐 Live Demo & Deployment Links
+
+- **🚀 Live Web Application (Frontend)**: [https://youtube-watch-party-woad.vercel.app/](https://youtube-watch-party-woad.vercel.app/)
+- **⚙️ Live WebSocket Server (Backend)**: [https://youtube-watch-party-1.onrender.com](https://youtube-watch-party-1.onrender.com)
+
+---
+
 ## 🌟 Key Features
 
 - **⚡ Real-Time Playback Synchronization**: Play, pause, seek, and video changes are instantly synchronized across all participants via WebSockets.
